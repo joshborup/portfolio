@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+.Home-container {
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+  font-family: 'Lora', sans-serif;
+}
+
+.landing-banner-display {
+
+  
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  border-bottom: black solid 1px;
+  padding: 50px 20px 20px;
+  
+}
+
+.landing-banner-display h1 {
+  font-size: 52px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.landing-banner-display h2 {
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-style: italic;
+  color: #777777;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.header > div a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  margin: 1px 0;
+  font-size: 18px;
+}
+
+.technical-display, .projects-display {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: black solid 1px;
+}
+
+.technical-display > div, .projects-display > div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  flex: 1;
+}
+
+.technical-display h2, .projects-display h2 {
+  font-size: 26px;
+  font-style: italic;
+  margin-right: 50px;
+}
+
+.technical-display > div h3, .projects-display > div h3 {
+  font-size: 18px;
+  margin: 0px;
+  font-weight: 900;
+  
+}
+
+.technical-display > div li {
+  font-size: 16px;
+  margin: 10px 0px;
+}
+
+.projects-display a {
+  font-size: 18px;
+  color: blue;
+}
+
+.projects-display p{
+  margin: 10px 0px;
+}
+
+.projects-display .stack {
+  font-weight: 800;
+}
+
