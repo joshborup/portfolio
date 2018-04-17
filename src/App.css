@@ -1,37 +1,70 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Trirong:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 .Home-container {
 
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   width: 100vw;
-  font-family: 'Lora', sans-serif;
+  font-family: 'Trirong', serif;
+}
+
+.nav-header {
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  background: #F9F9F9;
+  box-shadow: 1px 2px 7px rgb(170, 165, 165);
+}
+
+.nav-header > div {
+  height: 100%;
+}
+
+.nav-header ul {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-header ul a {
+  text-decoration: none;
+  color: #807e7e;
+}
+
+.nav-header ul a:hover {
+  color: black;
+}
+
+.nav-header ul li {
+  margin: 0px 20px;
+  font-size: 24px;
 }
 
 .landing-banner-display {
 
-  
   margin: 0 auto;
   width: 100%;
   max-width: 1000px;
-  border-bottom: black solid 1px;
-  padding: 50px 20px 20px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.25);
+  padding: 25px 20px 20px;
   
 }
 
 .landing-banner-display h1 {
-  font-size: 52px;
+  font-size: 44px;
   font-weight: 200;
   letter-spacing: 2px;
   margin: 0;
 }
 
 .landing-banner-display h2 {
-  font-size: 24px;
+  font-size: 21.5px;
   font-weight: 100;
   letter-spacing: 2px;
   font-style: italic;
-  color: #777777;
+  color: #555555;
 }
 
 .header {
@@ -51,46 +84,106 @@
   color: black;
   letter-spacing: 2px;
   margin: 1px 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
-.technical-display, .projects-display {
+.technical-display, .projects-display, .experience-display, .education-display {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   padding: 20px 20px;
   display: flex;
   flex-direction: row;
-  border-bottom: black solid 1px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.25);
 }
 
 .technical-display > div, .projects-display > div {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 5px 10px 10px;
   flex: 1;
 }
 
-.technical-display h2, .projects-display h2 {
-  font-size: 26px;
+.technical-display h2, .projects-display h2, .experience-display h2, .education-display h2 {
+  font-size: 24px;
   font-style: italic;
-  margin-right: 50px;
+  width: 160px;
 }
 
-.technical-display > div h3, .projects-display > div h3 {
+.experience-display h2 {
+  width: 309px;
+}
+
+.experience-display > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+
+.experience-display > div > div {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px 10px;
+}
+
+.technical-display > div h3, .projects-display > div h3, .experience-display > div h3, .education-display > div h3 {
   font-size: 18px;
   margin: 0px;
-  font-weight: 900;
-  
+  font-weight: 700;
+}
+
+.experience-display > div h4 {
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+.experience-dates {
+  font-size: 16px;
+  color: #686767;
+}
+
+.education-display > div{
+  display: flex;
+  flex-direction: column;
+}
+
+.education-display > div > *+* {
+  margin: 20px 0px 0px;
+}
+
+.experience-display h4, .education-display h4{
+  font-size: 17px;
+  font-weight: 600;
+  color: #555555;
+  margin-bottom: 5px;
+}
+
+.experience-display > div >div:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.experience-display ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.experience-display ul li {
+  margin: 5px 0px;
 }
 
 .technical-display > div li {
   font-size: 16px;
-  margin: 10px 0px;
+  margin: 5px 0px;
 }
 
 .projects-display a {
-  font-size: 18px;
+  font-size: 16px;
+  color: rgb(122, 122, 255);
+  text-decoration: none;
+  
+}
+
+.projects-display a:hover {
   color: blue;
 }
 
@@ -99,6 +192,33 @@
 }
 
 .projects-display .stack {
-  font-weight: 800;
+  font-weight: 700;
 }
 
+@media (max-width: 740px) {
+
+  .technical-display, .projects-display, .experience-display, .education-display {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.25);
+  }
+
+  .technical-display h2, .projects-display h2, .experience-display h2, .education-display h2{
+    text-align: center;
+    margin: 0 auto 10px;
+    width: 100%;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landing-banner-display h2 {
+      margin-bottom: 10px;
+  }
+}

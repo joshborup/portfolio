@@ -11,15 +11,15 @@ export default class Projects extends Component {
                  <div>
                      <h3>Saturn's List</h3>
                      <a href='https://www.saturnslist.com'>SaturnsList.com</a>
-                     <p>Saturn's List is a Craigslist style website built for astronomy enthusiasts to buy and sell astronomy equipment</p>
+                     <p>Saturn's List is a Craigslist style website built for astronomy and astrophotography enthusiasts to buy and sell new and used astronomy equipment </p>
                      <p>This site employs technologies such as <span className='stack'>React/Redux, CSS3, Node, Express, PostgreSQL, RESTful API's</span></p>
                 </div>
 
                  <div>
                  <h3>MenuBOMB</h3>
                      <a href='https://www.menubomb.com'>MenuBOMB.com</a>
-                     <p>Saturn's List is a Craigslist style website built for astronomy enthusiasts to buy and sell astronomy equipment</p>
-                     <p>This site employs technologies such as <span className='stack'>React/Redux, CSS3, Styled-Components, Node, Express, PostgreSQL, RESTful API's</span></p>
+                     <p>Menu Bomb is a website that allows restaurants to put thier menus online on monitor all online orders via a restaurant dashboard. similar to grub hub but with a more restaurant centric focus</p>
+                     <p>menuBOMB was built with technologies such as <span className='stack'>React/Redux, CSS3, Styled-Components, Node, Express, PostgreSQL, RESTful API's</span></p>
                 </div>
 
                  <div>
