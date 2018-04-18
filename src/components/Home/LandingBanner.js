@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import Typing from 'react-typing-animation'
+import Typing from 'react-typing-animation';
+import profile from './media/profile.png';
+import linkedin from './media/linkedin.svg';
+import github from './media/github.svg';
+import email from './media/email.png'
 
 export default class LandingBanner extends Component {
     constructor(props){
@@ -21,13 +25,29 @@ export default class LandingBanner extends Component {
                 <div>
                     <div className="header">
                         <div>
+                            <img src={profile}/>
+                        </div>
+                        <div>
                             <h1>JOSH BORUP</h1>
                             <h2>Full Stack Web Developer</h2>
                         </div>
-                        <div>
-                            <a href="#">joshborup.com</a>
-                            <a href="mailto:joshborup@gmail.com">joshborup@gmail.com</a>
-                            <a href="tel:4803209766">4803209766</a>
+                        <div className='contact-info'>
+                            <div>
+                                <div className='space'></div>
+                                <a href="#">joshborup.com</a>
+                            </div>
+                            <div>
+                                <img src={email} />
+                                 <a href="mailto:joshborup@gmail.com">joshborup@gmail.com</a>
+                            </div>
+                            <div>
+                                <div className='space'></div>
+                                <a href="tel:4803209766">4803209766</a>
+                            </div>
+                            <div>
+                                <a href='https://www.linkedin.com/in/joshborup/' className='social'><img src={linkedin}/></a>
+                                <a href='https://github.com/joshborup' className='social'><img src={github}/></a>
+                            </div>
                         </div>
                     </div>
                     <div>

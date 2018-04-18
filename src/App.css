@@ -6,6 +6,7 @@
   min-height: 100vh;
   width: 100vw;
   font-family: 'Trirong', serif;
+  padding-bottom: 100px;
 }
 
 .nav-header {
@@ -48,7 +49,34 @@
   width: 100%;
   max-width: 1000px;
   border-bottom: solid 1px rgba(0, 0, 0, 0.25);
-  padding: 25px 20px 20px;
+  padding: 25px 20px 15px;
+  
+}
+
+.landing-banner-display .contact-info div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-banner-display .contact-info div:nth-child(2){
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.landing-banner-display .contact-info div:nth-child(2) img {
+  border-radius: 0;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.landing-banner-display .contact-info div .space {
+  width: 30px;
   
 }
 
@@ -79,6 +107,11 @@
   flex-direction: column;
 }
 
+.header > div img {
+  border-radius: 50%;
+  height: 125px;
+}
+
 .header > div a {
   text-decoration: none;
   color: black;
@@ -87,7 +120,17 @@
   font-size: 16px;
 }
 
-.technical-display, .projects-display, .experience-display, .education-display {
+.contact-info .social img {
+  height: 30px;
+  border-radius: 4px;
+  margin: 5px 5px 0px;
+}
+
+.contact-info div .social img:hover {
+ box-shadow:0px 0px 4px rgb(248, 120, 120);
+}
+
+.technical-display, .projects-display, .experience-display {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
@@ -95,6 +138,15 @@
   display: flex;
   flex-direction: row;
   border-bottom: solid 1px rgba(0, 0, 0, 0.25);
+}
+
+.education-display{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .technical-display > div, .projects-display > div {
@@ -178,13 +230,13 @@
 
 .projects-display a {
   font-size: 16px;
-  color: rgb(122, 122, 255);
+  color: rgb(248, 120, 120);
   text-decoration: none;
   
 }
 
 .projects-display a:hover {
-  color: blue;
+  color: red;
 }
 
 .projects-display p{

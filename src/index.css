@@ -2,4 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: url('./components/Home/media/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
 }

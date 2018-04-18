@@ -24,13 +24,12 @@ export default class Content extends Component {
                     <br/>
                     <p>There are many different options out there for hosting images, I choose cloudinary to for a few reasons</p>
                     <ul>
-                        <li>300k uploads Free!</li>
+                        <li>300k uploads Free</li>
                         <li>10Gb storage space</li>
                         <li>Free on the fly image manipulation</li>
                         <li>security when uploading files</li>
                     </ul>
                 </div>
-
             </div>
         );
     }
