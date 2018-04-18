@@ -37,7 +37,7 @@ export default class LandingBanner extends Component {
                                 <a href="#">joshborup.com</a>
                             </div>
                             <div>
-                                <img src={email} />
+                            <a href="mailto:joshborup@gmail.com"><img src={email} /></a>
                                  <a href="mailto:joshborup@gmail.com">joshborup@gmail.com</a>
                             </div>
                             <div>

@@ -2,3 +2,45 @@
 .nav-header {
   font-family: 'Trirong', serif;
 }
+
+.nav-header > div {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav-header {
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  background: #F9F9F9;
+  box-shadow: 1px 2px 7px rgb(170, 165, 165);
+  position: fixed;
+  top: 0;
+}
+
+.nav-header > div {
+  height: 100%;
+}
+
+.nav-header ul {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-header ul a {
+  text-decoration: none;
+  color: #807e7e;
+}
+
+.nav-header ul a:hover {
+  color: black;
+}
+
+.nav-header ul li {
+  margin: 0px 20px;
+  font-size: 24px;
+}

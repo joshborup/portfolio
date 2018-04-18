@@ -13,6 +13,7 @@ export default class Technical extends Component {
                      <ul>
                          <li>React</li>
                          <li>Redux</li>
+                         <li>Styled Components (CSS in JS)</li>
                          <li>HTML 5</li>
                          <li>CSS3</li>
                          <li>JavaScript</li>
@@ -26,6 +27,7 @@ export default class Technical extends Component {
                          <li>Node</li>
                          <li>Express</li>
                          <li>Postgres</li>
+                         <li>NPM</li>
                          <li>Git</li>
                     </ul>
                 </div>
