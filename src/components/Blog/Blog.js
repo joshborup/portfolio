@@ -11,6 +11,7 @@ export default class BlogContainer extends Component {
                 <div className="blog-display">
                     <div>
                         <h1>Blog</h1>
+            
                         <span>{month.getMonth() + 1 + '/' + year.getFullYear()}</span>
                     </div>
                     <Content />

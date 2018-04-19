@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 .blog-display {
     margin: 0 auto;
     width: 100%;
     max-width: 1000px;
-    padding: 25px 20px 20px;
+    padding: 95px 20px 15px;
 }
 
 .blog-display > div:nth-child(1) {
@@ -58,3 +59,44 @@
     padding-left: 20px;
     list-style-type: circle;
 }
+
+.content-display .body h2 {
+    font-size: 24px;
+    margin: 25px 0 10px;
+    text-decoration: underline;
+}
+
+.content-display .body img {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.content-display .body strong {
+    font-weight: 900;
+    margin: 20px 0px 0px;
+    text-decoration: underline;
+}
+
+.code {
+    font-family: 'Source Code Pro', monospace;
+    padding: 20px 20px 40px;
+    background: #444444;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 1000px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    display: flex;
+    
+    justify-content: flex-start;
+    align-items: center;
+    white-space: pre-wrap;
+}
+
+
+
+
+
+
+

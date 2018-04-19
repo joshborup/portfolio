@@ -1,0 +1,100 @@
+.contact-display {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+
+  padding: 95px 20px 15px;
+}
+
+.contact-display h1 {
+    font-size: 32px;
+    padding: 10px 0;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.25);
+    margin: 0 0 10px;
+}
+
+.contact-display > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contact-display > div > span {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-display > div input {
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    background: transparent;
+    font-size: 16px;
+    border: 2px grey solid;
+    padding-left: 10px;
+    transition: .2s;
+}
+
+.contact-display > div input:hover {
+    background: rgb(199, 196, 196);
+    color: white;
+}
+
+.contact-display > div input:hover::placeholder {
+    color: white;
+    
+}
+
+.contact-display > div input:nth-child(3){
+  border-top: none;
+  
+}
+
+.contact-display > div textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    background: transparent;
+    font-size: 16px;
+    border: 2px grey solid;
+    border-top: none;
+    padding-left: 10px;
+    transition: .2s;
+}
+
+.contact-display > div textarea:hover {
+    background: rgb(199, 196, 196);
+    color: white;
+    
+}
+
+.contact-display > div textarea:hover::placeholder {
+    color: white;
+    
+}
+
+.contact-display > div button {
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    background: transparent;
+    font-size: 16px;
+    border: 2px grey solid;
+    border-top: none;
+    cursor: pointer;
+    transition: .2s;
+    color: grey;
+}
+
+.contact-display > div button:hover {
+    background: rgb(199, 196, 196);
+    color: white;
+}
+
+
+.contact-display > div button:focus, .contact-display > div textarea:focus, .contact-display > div input {
+   outline: none;
+}
+
