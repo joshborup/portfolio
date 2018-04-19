@@ -20,9 +20,9 @@ export default class Content extends Component {
                 </div>
 
                 <div className='body'>
-                    <p>Cloudinaries documentation can be confusing at times, but after much trial and error I was able to securely upload user submitted image files from my react app straight to my cloudinary cloud account. In the future I am going to go over uploading unsigned images (which is actually much easier) but for this post, I wanted to give easy to follow instructions on how to securely upload images directly from the clientside of your react app, this example uses the react library however the same instructions can be used for really any app that uses Node on the backend and employs HTML and JavaScript on the frontend</p>
+                    <p>Cloudinary's documentation can be confusing at times, after much trial and error I was able to securely upload user submitted image files from my react app straight to my cloudinary cloud account. In the future I am going to go over uploading unsigned images (which is actually much easier), but for this post I wanted to give easy to follow instructions on how to securely upload images directly from the clientside of your application, this example uses the react library however the same instructions can be used for really any application that uses Node on the backend and employs HTML and JavaScript on the frontend</p>
                     <br/>
-                    <h2>First, what is Cloudinary?</h2>
+                    <h2>What is Cloudinary?</h2>
                     <p> Cloudinary is a media management platform for developers, so you would use it if you wanted to store a lot of media files remotely and manage them all in one place. There are many different options out there for hosting images however, I chose Cloudinary for a few reasons</p>
                     <ul>
                         <li>300k uploads Free</li>
