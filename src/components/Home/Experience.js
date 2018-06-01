@@ -10,7 +10,7 @@ export default class Experience extends Component {
                 <div>
 
                     <div>
-                        <h3>Free-Lance Web Developer<span className='experience-dates'>(march 2017 - Present)</span></h3>
+                        <h3>Free-Lance Web Developer<span className='experience-dates'> (march 2017 - Present)</span></h3>
                         <h4>Front end web developer</h4>
                         <ul>
                             <li>Consulted with client to outline website goals, illustrate wire frame, and site functionality</li>
@@ -19,7 +19,7 @@ export default class Experience extends Component {
                     </div>
             
                     <div>
-                        <h3>Crucial Web Host<span className='experience-dates'>(Arpil 2016 - November 2017)</span></h3>
+                        <h3>Crucial Web Host<span className='experience-dates'> (Arpil 2016 - November 2017)</span></h3>
                         <h4>Web Server Administrator</h4>
                         <ul>
                             <li>Web Server Administrator responsible for providing linux support to approximately 1,000 clients utilizing web services such as Magento, WordPress, Redis, Varnish, cPanel</li>
