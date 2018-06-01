@@ -17,7 +17,7 @@ export default class Projects extends Component {
 
                  <div>
                  <h3>MenuBOMB</h3>
-                     <a href='https://www.menubomb.com'>MenuBOMB.com</a>
+                     <a href='https://github.com/joshborup/menu-bomb'>MenuBOMB.com</a>
                      <p>Menu Bomb is a website that allows restaurants to put thier menus online on monitor all online orders via a restaurant dashboard. similar to grub hub but with a more restaurant centric focus</p>
                      <p>menuBOMB was built with technologies such as <span className='stack'>React/Redux, CSS3, Styled-Components, Node, Express, PostgreSQL, RESTful API's</span></p>
                 </div>
