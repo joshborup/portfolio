@@ -10,7 +10,7 @@ export default class Experience extends Component {
                 <div>
 
                     <div>
-                        <h3>Free-Lance Web Developer <span className='experience-dates'>(march 2017 - Present)</span></h3>
+                        <h3>Free-Lancer Developer <span className='experience-dates'>(march 2017 - Present)</span></h3>
                         <h4>Front end web developer</h4>
                         <ul>
                             <li>Consulted with client to outline website goals, illustrate wire frame, and site functionality</li>
