@@ -8,6 +8,7 @@
     "body-parser": "^1.18.2",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
+    "express-x-hub": "^1.0.4",
     "nodemailer": "^4.6.4",
     "prismjs": "^1.14.0",
     "react": "^16.3.1",
