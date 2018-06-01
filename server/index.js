@@ -27,7 +27,6 @@ app.post('/portfolio_hook', (req, res) => {
   }     
 })
 
-const path = require('path')
  app.get('*', (req, res)=>{
    res.sendFile(path.join(__dirname, '../build/index.html'));
  })
