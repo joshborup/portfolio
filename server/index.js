@@ -9,28 +9,26 @@ require('dotenv').config();
 const app = express();
 app.use(xhub({ algorithm: 'sha1', secret: process.env.SECRET_TOKEN}));
 app.use(bodyParser.json());
-
-app.use( express.static( `${__dirname}/../build` ) );
 app.post('/api/contact', contact.message)
 
 app.post('/portfolio_hook', (req, res) => {
   
   console.log(req.isXHub && req.isXHubValid())
-
+  
   if(req.isXHub && req.isXHubValid()){
-      exec('sudo ./test.sh');
-      console.log('success');
-      res.json({ success: 'X-Hub Is Valid' });  
+    exec('./test.sh');
+    console.log('success');
+    res.json({ success: 'X-Hub Is Valid' });  
   } else {
-      console.log('failed')
-      res.status(400).json({ error: 'X-Hub Is Invalid' });
+    console.log('failed')
+    res.status(400).json({ error: 'X-Hub Is Invalid' });
   }     
 })
 
- app.get('*', (req, res)=>{
-   res.sendFile(path.join(__dirname, '../build/index.html'));
- })
 
+
+
+app.use( express.static( `${__dirname}/../build` ) );
 
 
 const port = 4000;

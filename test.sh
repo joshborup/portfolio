@@ -1,3 +1,3 @@
 #!/bin/bash
 git pull
-npm run build
+sudo npm run build
