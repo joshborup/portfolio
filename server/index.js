@@ -16,7 +16,13 @@ app.post('/portfolio_hook', (req, res) => {
   console.log(req.isXHub && req.isXHubValid())
   
   if(req.isXHub && req.isXHubValid()){
-    exec('./test.sh');
+    exec('./test.sh', (err, stdout, stderr)=> {
+        if(err){
+            console.log(err)
+        }else{
+            console.log(stdout)
+        }
+    })
     console.log('success');
     res.json({ success: 'X-Hub Is Valid' });  
   } else {
