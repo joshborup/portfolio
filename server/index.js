@@ -7,9 +7,13 @@ const contact = require('./controller/contact')
 require('dotenv').config();
 
 const app = express();
+
+
 app.use(xhub({ algorithm: 'sha1', secret: process.env.SECRET_TOKEN}));
 app.use(bodyParser.json());
 app.post('/api/contact', contact.message)
+
+
 
 app.post('/portfolio_hook', (req, res) => {
   
@@ -35,7 +39,7 @@ app.post('/portfolio_hook', (req, res) => {
 
 
 app.get('*', (req, res)=>{
-    res.sendFile(path.join(__dirname, '../build/index.html'));
+    res.sendFile(path.join(__dirname, '../build/'));
 })
 
 
