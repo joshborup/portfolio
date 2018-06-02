@@ -14,11 +14,6 @@ export default class LandingBanner extends Component {
         
     }
 
-
-    
-
-
-
     render() {
         return (
             <div className='landing-banner-display'>
@@ -29,7 +24,7 @@ export default class LandingBanner extends Component {
                         </div>
                         <div>
                             <h1>JOSH BORUP</h1>
-                            <h2>Full Stack Web Developer</h2>
+                            <h2>Full-Stack Web Developer</h2>
                         </div>
                         <div className='contact-info'>
                             <div>
