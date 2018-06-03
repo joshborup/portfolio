@@ -10,7 +10,7 @@ export default (
     <Switch>
         <Route path='/blog' component={BlogContainer} />
         <Route path='/contact' component={ContactContainer} />
-        <Route exact path='/' component={HomeContainer} />
+        <Route path='/' component={HomeContainer} />
     </Switch>
 
 )
