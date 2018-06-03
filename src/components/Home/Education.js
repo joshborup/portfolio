@@ -8,7 +8,7 @@ export default class Education extends Component {
                 <div>
                     <div>
                         <h3>Full-Stack JavaScript Developer</h3>
-                        <h4>(Node.js, React.js, Express.js PostgreSQL, HTML5, CSS3, JavaScript)</h4>
+                        <h4>(Node.js, React.js, Express.js, PostgreSQL, Socket.io, HTML5, CSS3, SASS, JavaScript)</h4>
                         <p>DevMountain Immersive Web Program | Phoenix, AZ</p>
                     </div> 
 
