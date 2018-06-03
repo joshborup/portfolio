@@ -27,6 +27,7 @@ export default class Technical extends Component {
                          <li>Node</li>
                          <li>Express</li>
                          <li>Postgres</li>
+                         <li>Socket.io</li>
                          <li>NPM</li>
                          <li>Git</li>
                     </ul>
