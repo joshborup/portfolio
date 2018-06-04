@@ -23,7 +23,7 @@ export default class LandingBanner extends Component {
                             <img src={profile}/>
                         </div>
                         <div>
-                            <h1>JOSH BORUP</h1>
+                            <h1>JOSHUA BORUP</h1>
                             <h2>Full-Stack Web Developer</h2>
                         </div>
                         <div className='contact-info'>
