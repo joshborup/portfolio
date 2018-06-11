@@ -77,6 +77,13 @@
     text-decoration: underline;
 }
 
+.javascript {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    margin: 20px 0px;
+
+}
+
 .code {
     font-family: 'Source Code Pro', monospace;
     padding: 20px 20px 40px;
@@ -86,7 +93,7 @@
     max-width: 1000px;
     font-size: 16px;
     border-radius: 5px;
-    margin: 20px 0px;
+   
     display: flex;
     
     justify-content: flex-start;

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import Highlight from 'react-highlight'
 import banner from './media/cloudinary-blog.png';
 import signup from './media/cloudinary_Account.png';
 import settings from './media/settings.png';
-import PrismCode from 'react-prism';
-import Prism from 'prismjs';
+import '../../../node_modules/highlight.js/styles/monokai-sublime.css';
+
 
 export default class Content extends Component {
 
@@ -18,7 +19,7 @@ export default class Content extends Component {
                 <div className='title'>
                     <h1>How to upload signed images to Cloudinary in React</h1>
                 </div>
-
+                
                 <div className='body'>
                     <p>Cloudinary's documentation can be confusing at times, after much trial and error I was able to securely upload user submitted image files from my react app straight to my cloudinary cloud account. In the future I am going to go over uploading unsigned images (which is actually much easier), but for this post I wanted to give easy to follow instructions on how to securely upload images directly from the clientside of your application, this example uses the react library however the same instructions can be used for really any application that uses Node on the backend and employs HTML and JavaScript on the frontend</p>
                     <br/>
@@ -54,7 +55,7 @@ export default class Content extends Component {
                         <li>dotenv</li>
                         <li>bodyParser</li>
                     </ul>
-                    <pre className='code'>
+                    <Highlight className='javascript'>
 {`
 const app = require('express')()
 const cloudinary = require('cloudinary');
@@ -66,11 +67,12 @@ app.use(bodyParser.json())
 
 
 app.listen(4000, ()=> console.log(listening on port 4000))`}
-                    </pre>
-
+                   
+                        
+                </Highlight>
                     <p>Now that we have a basic server file up and running, we are going to set up an endpoint that when hit will pass our hashed Secret API signature to the clientside</p>
 
-                    <pre className='code'>
+                    <Highlight className='javascript'>
 {`
 app.get('/api/upload', (req, res) => {
 
@@ -88,7 +90,7 @@ app.get('/api/upload', (req, res) => {
 
 }).catch(err => console.log(error))`}
     
-                        </pre>
+                        </Highlight>
 
                         <p>There are a few required portions when generating our hashed signature, first is a timestamp (UNIX format) which is saved to the timestamp variable, the signature will expire 1 hour after the timestamp was generated</p>
                         <br/>
@@ -110,7 +112,7 @@ app.get('/api/upload', (req, res) => {
 
                         <p>In your form you will also want to append your image file and your API KEY displayed in your cloudinary account dashboard</p>
 
-                        <pre className='code'>
+                        <Highlight className='javascript'>
 {`
 handleImageUpload = (file) => {
 
@@ -123,20 +125,20 @@ handleImageUpload = (file) => {
         formData.append("file", file[0]);
    `}
     
-                        </pre>
+                        </Highlight>
 
                         <p>
                             Within that same axios promise, you will want to make another axios call that sends that form to the your Cloudinary API BASE URL found in your account dashboard (make sure to get url for uploading images)
                         </p>
 
-                        <pre className='code'>
+                        <Highlight className='javascript'>
 {`      axios.post(CLOUDINARY_UPLOAD_URL, formData).then(response => {
    `}
-     </pre>
+     </Highlight>
 
      <p>You can then set state with the secure_url sent back in cloudinaries response</p>
 
-     <pre className='code'>
+     <Highlight className='javascript'>
 {`          this.setState({
             uploadedFileCloudinaryUrl: response.data.secure_url
             })
@@ -147,7 +149,7 @@ handleImageUpload = (file) => {
     })
 }
    `}
-     </pre>
+    </Highlight>
 
      <p>You can then either save that url in your database or display it directly on the page, and thats it, you can now upload signed images to your cloudinary account</p>
 
