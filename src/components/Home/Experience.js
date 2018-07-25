@@ -10,6 +10,15 @@ export default class Experience extends Component {
                 <div>
 
                     <div>
+                        <h3>DevMountain <span className='experience-dates'>(April 2018 - Present)</span></h3>
+                        <h4>Full Stack JavaScript Mentor</h4>
+                        <ul>
+                            <li>Taught Lectures on Node/Express and Jest unit testing, lead review sessions, taught mini lectures on technologies such as Socket.io and Sass</li>
+                            <li>Helped develop the afternoon project on Auth0 to help solidify integrating social media logins for web based applications </li>
+                        </ul>
+                    </div>
+
+                    <div>
                         <h3>Free-Lance Web Developer <span className='experience-dates'>(march 2017 - Present)</span></h3>
                         <h4>Front end web developer</h4>
                         <ul>

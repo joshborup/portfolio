@@ -12,12 +12,13 @@ export default class Technical extends Component {
                      <h3>Front-End Development</h3>
                      <ul>
                          <li>React</li>
+                         <li>React Context API</li>
                          <li>Redux</li>
                          <li>Styled Components (CSS in JS)</li>
+                         <li>Sass</li>
                          <li>HTML 5</li>
                          <li>CSS3</li>
                          <li>JavaScript</li>
-                         <li>Bootstrap 4</li>
                     </ul>
                 </div>
 
@@ -26,7 +27,7 @@ export default class Technical extends Component {
                      <ul>
                          <li>Node</li>
                          <li>Express</li>
-                         <li>Postgres</li>
+                         <li>PostgreSQL</li>
                          <li>Socket.io</li>
                          <li>NPM</li>
                          <li>Git</li>
