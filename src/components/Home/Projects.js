@@ -26,6 +26,44 @@ export default class Projects extends Component {
                             </div>
                         </div>
                     </div>
+
+                    <div>
+                        <h3>Just Code (Progressive Web App)</h3>
+                        <a href='https://justcode.fun/'>justcode.fun</a>
+                        <p>Just Code is a real-time code editor where developers can meet, edit and share code in real-time, no need to create an account.</p>
+                        <p>This site employs technologies such as <span className='stack'>React.js, CSS3, HTML5, JavaScript, Socket.io, express, PWA</span></p>
+                        <div className='hover-project'>
+                            <h1>Just Code</h1>
+                                <div>
+                                    <div>
+                                        Desktop
+                                    </div>
+
+                                    <div>
+                                        Mobile
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div>
+                        <h3>Learn Flexbox</h3>
+                        <a href='https://learnflexbox.org/'>LearnFlexbox.org</a>
+                        <p>The intention of learnflexbox is to provide an interactive Flexbox visualization tool that will also output code for reference and use</p>
+                        <p>This site employs technologies such as <span className='stack'>React.js, SCSS, HTML5, JavaScript</span></p>
+                        <div className='hover-project'>
+                            <h1>Learn Flexbox</h1>
+                                <div>
+                                    <div>
+                                        Desktop
+                                    </div>
+
+                                    <div>
+                                        Mobile
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
                     
                     <div>
                         <h3>Monkey Chat</h3>
