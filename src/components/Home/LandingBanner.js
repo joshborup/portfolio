@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Typing from 'react-typing-animation';
-import profile from './media/profile.png';
+import profile from './media/profile.jpg';
 import linkedin from './media/linkedin.svg';
 import github from './media/github.svg';
 import email from './media/email.png'

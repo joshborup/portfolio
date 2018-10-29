@@ -47,6 +47,25 @@ export default class Projects extends Component {
                     </div>
 
                     <div>
+                        <h3>Just Chat (Progressive Web App)</h3>
+                        <a href='https://justchat.fun/'>justchat.fun</a>
+                        <p>Just Chat is a real-time chat application/site you can install on any phone or computer or simply use the site for a quick way get a chatroom going, no need to create an account.</p>
+                        <p>This site employs technologies such as <span className='stack'>React.js, CSS3, HTML5, JavaScript, Socket.io, express, PWA</span></p>
+                        <div className='hover-project'>
+                            <h1>Just Chat</h1>
+                                <div>
+                                    <div>
+                                        Desktop
+                                    </div>
+
+                                    <div>
+                                        Mobile
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div>
                         <h3>Learn Flexbox</h3>
                         <a href='https://learnflexbox.org/'>LearnFlexbox.org</a>
                         <p>The intention of learnflexbox is to provide an interactive Flexbox visualization tool that will also output code for reference and use</p>

@@ -75,7 +75,18 @@
 .header > div img {
   border-radius: 50%;
   height: 125px;
+  transition: .4s;
+  z-index: 1;
 }
+
+.header > div:first-child img:hover {
+  position: relative;
+  transition: .4s;
+  z-index: 9999;
+  transform: scale(1.8);
+  cursor: url(./components/Home/media/arrow.png), auto;
+}
+
 
 .header > div a {
   text-decoration: none;
@@ -92,7 +103,7 @@
 }
 
 .contact-info div .social img:hover {
- box-shadow:0px 0px 4px rgb(248, 120, 120);
+  box-shadow:0px 0px 4px rgb(248, 120, 120);
 }
 
 .technical-display, .projects-display, .experience-display {
@@ -214,10 +225,10 @@
   margin: 5px;
   width: 100%;
   padding: 10px;
-  box-shadow:1px 4px 7px #555555;
   border-radius: 3px;
-  background: #f0f0f0;
+  background: #E9E9E9;
   position: relative;
+  box-shadow:0px 2px 4px rgba(0, 0, 0, 0.424);
 }
 
 .projects-display .hover-project {
@@ -233,7 +244,7 @@
   overflow: hidden;
   color: white;
   display: flex;
- align-items: center;
+  align-items: center;
   padding: 10px;
   flex-direction: column;
   height: 100%;
