@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import routes from './routes'
 import logo from './logo.svg';
 import HomeContainer from './components/Home/HomeContainer'
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {

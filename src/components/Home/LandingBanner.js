@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Typing from 'react-typing-animation';
-import profile from './media/profile.jpg';
+import profile from './media/pfile.jpeg';
 import linkedin from './media/linkedin.svg';
 import github from './media/github.svg';
 import email from './media/email.png'
@@ -33,7 +33,7 @@ export default class LandingBanner extends Component {
                             </div>
                             <div>
                             <a href="mailto:joshborup@gmail.com"><img src={email} /></a>
-                                 <a href="mailto:joshborup@gmail.com">joshborup@gmail.com</a>
+                                <a href="mailto:joshborup@gmail.com">joshborup@gmail.com</a>
                             </div>
                             <div>
                                 <div className='space'></div>

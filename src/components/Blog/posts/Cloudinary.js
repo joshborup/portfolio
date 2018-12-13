@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight'
-import banner from './media/cloudinary-blog.png';
-import signup from './media/cloudinary_Account.png';
-import settings from './media/settings.png';
-import '../../../node_modules/highlight.js/styles/monokai-sublime.css';
+import banner from '../media/cloudinary-blog.png';
+import signup from '../media/cloudinary_Account.png';
+import settings from '../media/settings.png';
+import '../../../../node_modules/highlight.js/styles/monokai-sublime.css';
 
 
-export default class Content extends Component {
-
+export default class Cloudinary extends Component {
     render() {
-
-      
         return (
             <div className='content-display'>
                 <div>
@@ -67,7 +64,7 @@ app.use(bodyParser.json())
 
 
 app.listen(4000, ()=> console.log(listening on port 4000))`}
-                   
+                    
                         
                 </Highlight>
                     <p>Now that we have a basic server file up and running, we are going to set up an endpoint that when hit will pass our hashed Secret API signature to the clientside</p>

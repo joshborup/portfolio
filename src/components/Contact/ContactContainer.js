@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Contact from './Contact';
 import Header from '../Shared/Header'
 import axios from 'axios';
-import './contact.css'
+import './contact.scss'
 
 export default class ContactContainer extends Component {
     constructor(props){

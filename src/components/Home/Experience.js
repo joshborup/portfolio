@@ -4,11 +4,8 @@ export default class Experience extends Component {
     render() {
         return (
             <div className='experience-display'>
-
                 <h2>Experience</h2>
-
                 <div>
-
                     <div>
                         <h3>DevMountain <span className='experience-dates'>(Aug 2018 - present)</span></h3>
                         <h4>Web Development Lead Mentor (Phoenix Campus)</h4>
