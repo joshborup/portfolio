@@ -85,7 +85,7 @@ export default class Experience extends Component {
             <h4>Front end web developer</h4>
             <ul>
               <li>
-                Consulted with client to outline website goals, illustrate wire
+                Consulted with clients to outline website goals, illustrate wire
                 frame, and site functionality
               </li>
               <li>
