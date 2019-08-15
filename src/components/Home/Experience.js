@@ -15,13 +15,20 @@ export default class Experience extends Component {
             <ul>
               <li>
                 In charge of prepping, writing and teaching daily lectures on
-                topics such as JavaScript beginner to advanced, React, Redux,
-                PostgreSQL, MongoDB, Node/Express.js, beginning to advanced
-                HTML/CSS3
+                topics such as JavaScript: beginner to advanced, React, Redux,
+                PostgreSQL, MongoDB, Node, Express.js, HTML/CSS3: beginning to
+                advanced, Socket.io
               </li>
               <li>
                 Interview, hire, and manage teams of mentors with the goal of
                 increasing student trust and learning
+              </li>
+              <li>
+                Ran regular mentor training on subjects such as setting up and
+                managing a PostgreSQL or MongoDB database on a linux server,
+                Advanced Socket.iO and sharing a session between a socket and a
+                restful api, Intro to React Native, Intro to WebAssembly and
+                GoLang
               </li>
               <li>
                 Company/Community outreach to provide lasting relationships for
