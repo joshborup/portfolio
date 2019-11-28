@@ -1,18 +1,18 @@
-import React from 'react';
+import React from "react";
 
-const Contact = (props) => {
-    return (
-            <div className='contact-display'>
-                <h1>Contact Me</h1>
-                <div>
-                    <span>{props.state.result}</span>
-                    <input placeholder='NAME' name='name' value={props.state.name} onChange={(e) => props.changeHandler(e.currentTarget.name, e.currentTarget.value)} />
-                    <input placeholder='E-MAIL' name='email' value={props.state.email} onChange={(e) => props.changeHandler(e.currentTarget.name, e.currentTarget.value)}  />
-                    <textarea placeholder='MESSAGE' name='message' value={props.state.message} onChange={(e) => props.changeHandler(e.currentTarget.name, e.currentTarget.value)}  />
-                    <button onClick={() => props.sendMessage()} >SUBMIT!</button>
-                </div>
-            </div>
-    )
+const Contact = props => {
+  return (
+    <div className="contact-display">
+      <h1>Contact Me</h1>
+      <form name="contact" method="POST" data-netlify="true">
+        <span>{props.state.result}</span>
+        <input placeholder="NAME" name="name" />
+        <input placeholder="E-MAIL" name="email" />
+        <textarea placeholder="MESSAGE" name="message" />
+        <button type="submit">SUBMIT!</button>
+      </form>
+    </div>
+  );
 };
 
 export default Contact;

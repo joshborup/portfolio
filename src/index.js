@@ -1,14 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import { BrowserRouter } from 'react-router-dom'
-import App from './App';
-import './reset.css';
-
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import { HashRouter } from "react-router-dom";
+import App from "./App";
+import "./reset.css";
 
 ReactDOM.render(
-<BrowserRouter>
+  <HashRouter>
     <App />
-</BrowserRouter>
-, document.getElementById('root'));
-
+  </HashRouter>,
+  document.getElementById("root")
+);
