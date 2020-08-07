@@ -11,7 +11,7 @@
     "express-x-hub": "^1.0.4",
     "node-sass": "^4.9.4",
     "nodemailer": "^4.6.4",
-    "prismjs": "^1.14.0",
+    "prismjs": "^1.21.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-highlight": "^0.12.0",
