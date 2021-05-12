@@ -10,7 +10,7 @@
     "express": "^4.16.3",
     "express-x-hub": "^1.0.4",
     "node-sass": "^4.9.4",
-    "nodemailer": "^4.6.4",
+    "nodemailer": "^6.4.16",
     "prismjs": "^1.14.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
