@@ -7,7 +7,7 @@
     "axios": "^0.18.0",
     "body-parser": "^1.18.2",
     "dotenv": "^5.0.1",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "express-x-hub": "^1.0.4",
     "node-sass": "^4.9.4",
     "nodemailer": "^4.6.4",
